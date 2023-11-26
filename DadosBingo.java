@@ -64,10 +64,6 @@ public class DadosBingo {
         return false;
     }
 
-    public static int countNumerosSorteados() {
-        return numerosSorteados.split(SEP_ITENS).length;
-    }
-
     public static String getJogador(String blocoDados) {
         return blocoDados.substring(0, blocoDados.indexOf(SEP_DADOS));
     }
